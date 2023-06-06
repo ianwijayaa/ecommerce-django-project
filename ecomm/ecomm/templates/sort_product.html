@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sort_product</title>
+</head>
+<body>
+    <h1>Daftar Produk untuk Kategori {{ category }}</h1>
+        <ul>
+        {% for product in products %}
+            <li>{{ productItem.nama_produk }}</li>
+        {% endfor %}
+        </ul>
+</body>
+</html>
